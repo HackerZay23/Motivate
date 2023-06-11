@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="style.css">
+    <title>Motivation</title>
+</head>
+<body>
+
+
+    <section class = "main_body">
+
+        <img class = "image" src = "images/nature.png">
+        <audio  controls autoplay loop>
+            <source src = "videos/RPReplay_Final1686455569 (1).mov" type = "audio/mpeg">
+        </audio>
+        
+
+        <div class = "card">
+            
+            <p class = "quote">  </p>
+
+        <script>
+
+        setInterval(getQuote , 2100);
+
+        async function getQuote(){
+        let arr = ["In order to Succeed we must first believe that we can", "You only fail when you stop trying",
+                    "The best view comes after the hardest climb" , "All things are difficult before they're easy",
+                    "Everyday is a change for the better" , "If you can dream it, you can do it" ,
+                    "The task ahead of you is never greater than the strength inside of you", 
+                    "Sometimes we're tested not to show our weaknesses but to discover our strengths"];
+
+        let randomizer = Math.floor(Math.random() * arr.length);
+
+        let quote = document.querySelector('.quote');
+        quote.innerHTML = arr[randomizer];
+
+        }
+        </script>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+    
+</body>
+</html>

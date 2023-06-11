@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    
+}
+
+
+
+.image{
+    height: 990px;
+    width: 1900px;
+    position: absolute;
+    background-color: black;
+    
+}
+
+
+
+.card{
+    position: relative;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(34, 173, 211);
+    font-family: 'Oswald';
+    font-weight: bolder;
+    font-size: 40px;
+    text-shadow: 1px 1px 0.5pc ;
+    
+}
+
+
+audio::-webkit-media-controls-panel{
+    background-color: rgb(5, 71, 18);
+    
+    
+}
+
+audio::-webkit-media-controls-play-button{
+    border-radius: 50%;
+}
