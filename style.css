@@ -23,11 +23,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(34, 173, 211);
+    color: rgb(213, 144, 32);
     font-family: 'Oswald';
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 40px;
-    text-shadow: 1px 1px 0.5pc ;
+    text-shadow: 1px 1px 1pc ;
     
 }
 
@@ -40,4 +40,13 @@ audio::-webkit-media-controls-panel{
 
 audio::-webkit-media-controls-play-button{
     border-radius: 50%;
+}
+
+.back{
+    position: absolute ;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+
 }
